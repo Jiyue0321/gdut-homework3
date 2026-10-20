@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 环境变量（含密钥，禁止入库）----
+.env
+
+# ---- 作业原始材料 ----
+作业要求.txt
+CLAUDE.md
+
+# ---- 沙箱运行时数据（保留目录本身，忽略其中文件）----
+workspace/*
+!workspace/.gitkeep
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
